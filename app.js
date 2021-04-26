@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/',(req,res)=>{
+    console.log(req.url)
     res.send("<h1>Welcome to my home page</h1>");
 });
 
